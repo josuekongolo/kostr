@@ -3179,6 +3179,237 @@ section {
     }
 }
 
+/* =====================================================
+   Mobile Optimizations
+   ===================================================== */
+
+/* Extra small screens (phones in portrait < 375px) */
+@media (max-width: 374px) {
+    :root {
+        --container-padding: 1rem;
+        --spacing-lg: 1.25rem;
+        --spacing-xl: 1.5rem;
+        --spacing-2xl: 2rem;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.125rem;
+    }
+
+    .hero {
+        padding-top: 70px;
+    }
+
+    .hero-badge {
+        font-size: 0.75rem;
+        padding: var(--spacing-xs) var(--spacing-sm);
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 0.75rem 1.25rem;
+        font-size: 0.9375rem;
+    }
+
+    .btn-lg {
+        padding: 0.875rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    section {
+        padding: var(--spacing-2xl) 0;
+    }
+
+    .trust-items {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+
+    .trust-item {
+        justify-content: flex-start;
+    }
+
+    .trust-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .trust-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .trust-text h4 {
+        font-size: 0.8rem;
+    }
+
+    .trust-text p {
+        font-size: 0.75rem;
+    }
+
+    .service-card {
+        padding: var(--spacing-lg);
+    }
+
+    .service-icon {
+        width: 48px;
+        height: 48px;
+    }
+
+    .service-icon svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .why-number {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+
+    .heritage-stat .number {
+        font-size: 2rem;
+    }
+
+    .footer {
+        padding: var(--spacing-2xl) 0 var(--spacing-lg);
+    }
+}
+
+/* Small screens (phones < 480px) */
+@media (max-width: 479px) {
+    .hero-cta {
+        flex-direction: column;
+    }
+
+    .hero-cta .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hero-trust {
+        flex-direction: column;
+        gap: var(--spacing-md);
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+    }
+
+    .cta-buttons .btn {
+        width: 100%;
+    }
+
+    .trust-items {
+        grid-template-columns: 1fr;
+    }
+
+    .area-map {
+        padding: var(--spacing-lg);
+    }
+
+    .area-tag {
+        font-size: 0.8125rem;
+        padding: var(--spacing-xs) var(--spacing-sm);
+    }
+
+    .heritage-stats {
+        gap: var(--spacing-md);
+    }
+
+    .heritage-stat {
+        padding: var(--spacing-md);
+    }
+
+    .contact-form-section,
+    .contact-form-wrapper {
+        padding: var(--spacing-lg);
+    }
+
+    .footer-certifications {
+        justify-content: center;
+    }
+
+    .nav-mobile a {
+        font-size: 1.25rem;
+    }
+}
+
+/* Medium small screens (480px - 639px) */
+@media (min-width: 480px) and (max-width: 639px) {
+    .trust-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Improve touch targets for touch devices */
+@media (hover: none) and (pointer: coarse) {
+    .nav-mobile a {
+        padding: var(--spacing-md) 0;
+        min-height: 48px;
+        display: flex;
+        align-items: center;
+    }
+
+    .btn {
+        min-height: 48px;
+    }
+
+    .service-link {
+        padding: var(--spacing-sm) 0;
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .footer-links a {
+        display: block;
+        padding: var(--spacing-xs) 0;
+        min-height: 44px;
+        line-height: 44px;
+    }
+
+    .area-tag {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    /* Prevent iOS zoom on form inputs */
+    input, select, textarea {
+        font-size: 16px;
+    }
+
+    /* Larger tap targets for navigation toggle */
+    .nav-toggle {
+        min-width: 48px;
+        min-height: 48px;
+    }
+}
+
+/* Landscape phone orientation */
+@media (max-height: 500px) and (orientation: landscape) {
+    .hero {
+        min-height: auto;
+        padding: calc(80px + var(--spacing-xl)) 0 var(--spacing-xl);
+    }
+
+    .hero-trust {
+        display: none;
+    }
+}
+
 /* Print Styles */
 @media print {
     .header,
