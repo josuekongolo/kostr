@@ -1,0 +1,10 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background with rounded corners for iOS -->
+    <rect width="180" height="180" rx="36" fill="#0066cc"/>
+
+    <!-- Lightning bolt / electrical symbol -->
+    <path d="M90 30L50 85H80L70 150L130 85H100L110 30H90Z" fill="#ffc107"/>
+
+    <!-- Inner circle accent -->
+    <circle cx="90" cy="80" r="12" fill="#0066cc"/>
+</svg>

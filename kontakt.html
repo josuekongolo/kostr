@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="nb-NO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- SEO Meta Tags -->
+    <title>Kontakt Oss | Kostr Powered by Deas - Elektriker Moss - Gratis Befaring</title>
+    <meta name="description" content="Kontakt Kostr Powered by Deas for elektrikertjenester i Moss og Østfold. Ring oss, send melding eller bestill gratis befaring. Rask respons garantert!">
+    <meta name="keywords" content="kontakt elektriker moss, elektriker østfold kontakt, gratis befaring elektriker, elbillader befaring">
+    <meta name="author" content="Kostr Powered by Deas AS">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kostr.no/kontakt.html">
+    <meta property="og:title" content="Kontakt Oss | Kostr Powered by Deas">
+    <meta property="og:description" content="Kontakt oss for elektrikertjenester i Moss og Østfold. Ring, send melding eller bestill gratis befaring.">
+    <meta property="og:image" content="images/og-image.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://kostr.no/kontakt.html">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Source+Sans+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Hopp til hovedinnhold</a>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="index.html" class="logo" aria-label="Kostr - Hjem">
+                    <svg class="logo-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="48" height="48" rx="8" fill="#0066cc"/>
+                        <path d="M24 8L14 18H20V28H28V18H34L24 8Z" fill="#ffc107"/>
+                        <rect x="20" y="30" width="8" height="10" fill="#ffc107"/>
+                        <circle cx="24" cy="22" r="3" fill="#0066cc"/>
+                    </svg>
+                    <div class="logo-text">
+                        Kostr
+                        <span>Powered by Deas</span>
+                    </div>
+                </a>
+
+                <nav class="nav-desktop" aria-label="Hovednavigasjon">
+                    <ul>
+                        <li><a href="index.html">Hjem</a></li>
+                        <li><a href="tjenester.html">Tjenester</a></li>
+                        <li><a href="om-oss.html">Om Oss</a></li>
+                        <li><a href="referanser.html">Referanser</a></li>
+                        <li><a href="priser.html">Priser</a></li>
+                        <li><a href="kontakt.html" class="active">Kontakt</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-cta">
+                    <a href="kontakt.html" class="btn btn-primary">Gratis Befaring</a>
+                </div>
+
+                <button class="nav-toggle" aria-label="Meny" aria-expanded="false" aria-controls="nav-mobile">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <nav class="nav-mobile" id="nav-mobile" aria-label="Mobilnavigasjon">
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="tjenester.html">Tjenester</a></li>
+                <li><a href="om-oss.html">Om Oss</a></li>
+                <li><a href="referanser.html">Referanser</a></li>
+                <li><a href="priser.html">Priser</a></li>
+                <li><a href="kontakt.html" class="active">Kontakt</a></li>
+            </ul>
+            <div class="nav-mobile-cta">
+                <a href="kontakt.html" class="btn btn-primary">Gratis Befaring</a>
+                <a href="tel:+4769XXXXXX" class="btn btn-outline">Ring Oss</a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Page Hero -->
+        <section class="page-hero">
+            <div class="container">
+                <nav class="breadcrumb" aria-label="Brødsmuler">
+                    <ol>
+                        <li><a href="index.html">Hjem</a></li>
+                        <li aria-current="page">Kontakt</li>
+                    </ol>
+                </nav>
+                <h1>Kontakt Oss</h1>
+                <p class="page-hero-subtitle">Vi er her for å hjelpe. Kontakt oss for gratis befaring og uforpliktende tilbud.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Form -->
+                    <div class="contact-form-wrapper">
+                        <h2>Send Oss En Melding</h2>
+                        <p>Fyll ut skjemaet under, så kontakter vi deg innen 24 timer.</p>
+
+                        <form id="contact-form" class="contact-form" novalidate>
+                            <!-- Honeypot field for spam protection -->
+                            <input type="text" name="website" class="honeypot" tabindex="-1" autocomplete="off">
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Navn *</label>
+                                    <input type="text" id="name" name="name" required autocomplete="name" placeholder="Ditt fulle navn">
+                                </div>
+                            </div>
+
+                            <div class="form-row form-row-2">
+                                <div class="form-group">
+                                    <label for="email">E-post *</label>
+                                    <input type="email" id="email" name="email" required autocomplete="email" placeholder="din@epost.no">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Telefon *</label>
+                                    <input type="tel" id="phone" name="phone" required autocomplete="tel" placeholder="123 45 678">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="address">Adresse</label>
+                                    <input type="text" id="address" name="address" autocomplete="street-address" placeholder="Gate og husnummer, postnummer og sted">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="service">Hva gjelder henvendelsen? *</label>
+                                    <select id="service" name="service" required>
+                                        <option value="">Velg tjeneste...</option>
+                                        <option value="elbillader">Elbillader / Hjemmelader</option>
+                                        <option value="solceller">Solceller</option>
+                                        <option value="elkontroll">El-kontroll</option>
+                                        <option value="smarthus">Smarthus / Automasjon</option>
+                                        <option value="nyinstallasjon">Nyinstallasjon / Oppgradering</option>
+                                        <option value="naering">Næring / Industri</option>
+                                        <option value="sikringsskap">Sikringsskap</option>
+                                        <option value="feilsoking">Feilsøking / Reparasjon</option>
+                                        <option value="annet">Annet</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="message">Melding *</label>
+                                    <textarea id="message" name="message" rows="5" required placeholder="Beskriv kort hva du trenger hjelp med..."></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group form-checkbox">
+                                    <input type="checkbox" id="befaring" name="befaring" value="ja">
+                                    <label for="befaring">Jeg ønsker gratis befaring</label>
+                                </div>
+                            </div>
+
+                            <div class="form-message" role="alert" aria-live="polite"></div>
+
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="22" y1="2" x2="11" y2="13"/>
+                                    <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                                </svg>
+                                Send Henvendelse
+                            </button>
+
+                            <p class="form-privacy">Ved å sende inn dette skjemaet godtar du at vi lagrer og behandler dine opplysninger for å kunne svare på din henvendelse. Les vår <a href="#">personvernerklæring</a>.</p>
+                        </form>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="contact-info-wrapper">
+                        <div class="contact-info-card">
+                            <h2>Kontaktinformasjon</h2>
+
+                            <div class="contact-info-items">
+                                <div class="contact-info-item">
+                                    <div class="contact-icon">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                            <circle cx="12" cy="10" r="3"/>
+                                        </svg>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h3>Adresse</h3>
+                                        <p>
+                                            Kostr Powered by Deas AS<br>
+                                            Solgaard skog 92<br>
+                                            1599 Moss
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="contact-info-item">
+                                    <div class="contact-icon">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h3>Telefon</h3>
+                                        <!-- TELEFONNUMMER: Oppdater dette med riktig nummer -->
+                                        <p><a href="tel:+4769XXXXXX">+47 69 XX XX XX</a></p>
+                                        <p class="contact-note">Man-fre: 07:00-15:30</p>
+                                    </div>
+                                </div>
+
+                                <div class="contact-info-item">
+                                    <div class="contact-icon">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                            <polyline points="22,6 12,13 2,6"/>
+                                        </svg>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h3>E-post</h3>
+                                        <!-- E-POST: Oppdater dette med riktig adresse -->
+                                        <p><a href="mailto:post@kostr.no">post@kostr.no</a></p>
+                                        <p class="contact-note">Vi svarer innen 24 timer</p>
+                                    </div>
+                                </div>
+
+                                <div class="contact-info-item">
+                                    <div class="contact-icon">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                            <line x1="16" y1="2" x2="16" y2="6"/>
+                                            <line x1="8" y1="2" x2="8" y2="6"/>
+                                            <line x1="3" y1="10" x2="21" y2="10"/>
+                                        </svg>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h3>Åpningstider</h3>
+                                        <ul class="opening-hours">
+                                            <li><span>Mandag - Fredag</span> <span>07:00 - 15:30</span></li>
+                                            <li><span>Lørdag</span> <span>Stengt</span></li>
+                                            <li><span>Søndag</span> <span>Stengt</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Emergency Contact -->
+                        <div class="emergency-card">
+                            <div class="emergency-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                                </svg>
+                            </div>
+                            <h3>Akutt Elektrisk Problem?</h3>
+                            <p>Ved strømbrudd, lukt av brent eller andre akutte elektriske problemer - ring oss umiddelbart.</p>
+                            <!-- NØDNUMMER: Oppdater hvis dere har eget vakttelefonnummer -->
+                            <a href="tel:+4769XXXXXX" class="btn btn-secondary">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                                </svg>
+                                Ring Nå
+                            </a>
+                        </div>
+
+                        <!-- Company Info -->
+                        <div class="company-card">
+                            <h3>Firmainformasjon</h3>
+                            <ul class="company-info">
+                                <li><strong>Firmanavn:</strong> Kostr Powered by Deas AS</li>
+                                <li><strong>Org.nr:</strong> 936 903 363</li>
+                                <li><strong>Morselskap:</strong> Deas Elektro (AS Data Elektriske)</li>
+                            </ul>
+                            <div class="company-badges">
+                                <span class="badge">DSB Godkjent</span>
+                                <span class="badge">NELFO Medlem</span>
+                                <span class="badge">Godkjent Lærebedrift</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Finn Oss</h2>
+                    <p>Vi holder til i Solgaard skog, nord for Moss sentrum.</p>
+                </div>
+
+                <div class="map-wrapper">
+                    <!-- Placeholder for Google Maps embed -->
+                    <div class="map-placeholder">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#0066cc" stroke-width="1.5">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        <p><strong>Kostr Powered by Deas AS</strong></p>
+                        <p>Solgaard skog 92, 1599 Moss</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Solgaard+skog+92+1599+Moss" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
+                                <polyline points="15 3 21 3 21 9"/>
+                                <line x1="10" y1="14" x2="21" y2="3"/>
+                            </svg>
+                            Åpne i Google Maps
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Area Section -->
+        <section class="service-area contact-area">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Vårt Dekningsområde</h2>
+                    <p>Vi utfører oppdrag i hele Mosseregionen og Østfold.</p>
+                </div>
+
+                <div class="area-map">
+                    <div class="area-list">
+                        <span class="area-tag">Moss sentrum</span>
+                        <span class="area-tag">Jeløya</span>
+                        <span class="area-tag">Kambo</span>
+                        <span class="area-tag">Rygge</span>
+                        <span class="area-tag">Larkollen</span>
+                        <span class="area-tag">Råde</span>
+                        <span class="area-tag">Våler</span>
+                        <span class="area-tag">Vestby</span>
+                        <span class="area-tag">Fredrikstad</span>
+                        <span class="area-tag">Sarpsborg</span>
+                        <span class="area-tag">Halden</span>
+                        <span class="area-tag">Askim</span>
+                    </div>
+                    <p class="area-note">Bor du utenfor disse områdene? Kontakt oss likevel - vi vurderer gjerne oppdraget!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section contact-faq">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Ofte Stilte Spørsmål</h2>
+                </div>
+
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>Hvor raskt kan dere komme?</h3>
+                        <p>For vanlige oppdrag avtaler vi tid som passer deg, normalt innen 1-2 uker. For akutte problemer prøver vi å komme samme dag eller neste dag.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>Koster befaring noe?</h3>
+                        <p>Nei, befaring er alltid gratis og uforpliktende. Vi kommer hjem til deg, vurderer jobben og gir deg et detaljert tilbud.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>Hvor lang tid tar det å få tilbud?</h3>
+                        <p>Etter befaring får du normalt tilbud samme dag eller senest neste virkedag. Ved enkle forespørsler kan vi ofte gi prisindikasjon på telefon.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>Jobber dere kveld og helg?</h3>
+                        <p>Vi jobber primært mandag-fredag 07:00-15:30, men kan avtale kveld/helg-arbeid ved behov. Det påløper da et tillegg på 50%.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <div class="logo-text">
+                            Kostr
+                            <span>Powered by Deas</span>
+                        </div>
+                    </a>
+                    <p>Profesjonell elektriker i Moss med 65+ års erfaring fra Deas Elektro. Vi leverer trygge og pålitelige elektrikertjenester til konkurransedyktige priser.</p>
+                    <div class="footer-certifications">
+                        <span class="cert-badge">DSB Godkjent</span>
+                        <span class="cert-badge">NELFO</span>
+                        <span class="cert-badge">Ahlsell Partner</span>
+                    </div>
+                </div>
+
+                <div class="footer-nav">
+                    <h4>Sider</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Hjem</a></li>
+                        <li><a href="tjenester.html">Tjenester</a></li>
+                        <li><a href="om-oss.html">Om Oss</a></li>
+                        <li><a href="referanser.html">Referanser</a></li>
+                        <li><a href="priser.html">Priser</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-services">
+                    <h4>Tjenester</h4>
+                    <ul class="footer-links">
+                        <li><a href="tjenester.html#elbillading">Elbillading</a></li>
+                        <li><a href="tjenester.html#solceller">Solceller</a></li>
+                        <li><a href="tjenester.html#elkontroll">El-kontroll</a></li>
+                        <li><a href="tjenester.html#smarthus">Smarthus</a></li>
+                        <li><a href="tjenester.html#nyinstallasjon">Nyinstallasjon</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact-info">
+                    <h4>Kontakt</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <span>Solgaard skog 92<br>1599 Moss</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                            </svg>
+                            <a href="tel:+4769XXXXXX">+47 69 XX XX XX</a>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            <a href="mailto:post@kostr.no">post@kostr.no</a>
+                        </li>
+                    </ul>
+                    <p style="margin-top: 1rem; font-size: 0.875rem;"><strong>Org.nr:</strong> 936 903 363</p>
+                </div>
+            </div>
+
+            <div class="parent-company">
+                <p>Del av Deas Elektro-familien</p>
+                <a href="https://www.deas.no" target="_blank" rel="noopener noreferrer">www.deas.no</a>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kostr Powered by Deas AS. Alle rettigheter reservert.</p>
+                <div class="footer-legal">
+                    <a href="#">Personvern</a>
+                    <a href="#">Vilkår</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
